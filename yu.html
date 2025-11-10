@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Example</title>
+
+  <style>
+    /* Style the navigation bar */
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
+
+    /* Each div acts as a block section inside nav */
+    nav div {
+      margin: 5px 0;
+    }
+
+    /* Style links */
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Use span for small inline styling */
+    nav a span {
+      color: yellow;
+      font-weight: bold;
+    }
+
+    /* Hover effect */
+    nav a:hover {
+      color: lightgreen;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <!-- Div groups for structure (block-level) -->
+    <div>
+      <a href="#home"><span>Home</span></a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div>
+      <a href="#login">Login</a>
+      <a href="#signup"><span>Sign Up</span></a>
+    </div>
+  </nav>
+
+</body>
+</html>
